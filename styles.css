@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF; /* Soft White */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #FFFFFF; /* White */
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #006400; /* Dark Green */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #006400; /* Dark Green */
+    text-decoration: none;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero .container {
+    background-color: rgba(255, 255, 255, 0.75); /* Slightly opaque background to improve text readability */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin: 0 0 20px;
+    color: #006400; /* Dark Green */
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 0 0 20px;
+    color: #333333; /* Dark Gray */
+}
+
+.cta-button {
+    background-color: #006400; /* Dark Green */
+    color: #FFFFFF; /* White */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #90EE90; /* Light Green */
+    color: #006400; /* Dark Green */
+}
+/* About */
+/* About Section */
+.about-section {
+    background-color: #FFFFFF; /* Soft White */
+    padding: 3rem 0;
+}
+
+.about-section h2 {
+    color: #006400; /* Dark Green */
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-content p {
+    color: #333333; /* Dark Gray */
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+@media (min-width: 768px) {
+    .about-content {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .about-content p {
+        max-width: none;
+    }
+}
+
+
+
+/* Servies */
+.services {
+    background-color: #F5F5DC; /* Soft Beige */
+    padding: 50px 0;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #006400; /* Dark Green */
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.service-item {
+    background-color: #FFFFFF; /* Soft White */
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-item h3 {
+    margin-top: 0;
+    color: #006400; /* Dark Green */
+}
+
+footer {
+    background-color: #333333; /* Dark Gray */
+    color: #FFFFFF; /* White */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #F5F5DC; /* Soft Beige */
+    padding: 3rem 0;
+}
+
+.contact-header {
+    color: #006400; /* Dark Green */
+}
+
+.contact-form {
+    background-color: #FFFFFF; /* Soft White */
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-label {
+    color: #333333; /* Dark Gray */
+}
+
+.contact-input {
+    background-color: #DFF0D8; /* Light Green */
+    color: #006400; /* Dark Green */
+    border: 1px solid #006400; /* Border to match text color */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.contact-button {
+    background-color: #006400; /* Dark Green */
+    color: #FFFFFF; /* White */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.contact-button:hover {
+    background-color: #90EE90; /* Light Green */
+    color: #006400; /* Dark Green */
+}
+
